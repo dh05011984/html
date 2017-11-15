@@ -1,0 +1,197 @@
+@charset "utf-8";/* CSS Document */
+/*   Don't Make any Changes Global CSS      */
+@font-face{font-family:'open_sansregular';src:url(../fonts/opensans-regular-webfont.eot);src:url(../fonts/opensans-regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/opensans-regular-webfont.woff2) format('woff2'),url(../fonts/opensans-regular-webfont.woff) format('woff'),url(../fonts/opensans-regular-webfont.ttf) format('truetype'),url(../fonts/opensans-regular-webfont.svg#open_sansregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:'open_sanssemibold';src:url(../fonts/opensans-semibold-webfont.eot);src:url(../fonts/opensans-semibold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/opensans-semibold-webfont.woff2) format('woff2'),url(../fonts/opensans-semibold-webfont.woff) format('woff'),url(../fonts/opensans-semibold-webfont.ttf) format('truetype'),url(../fonts/opensans-semibold-webfont.svg#open_sanssemibold) format('svg');font-weight:400;font-style:normal}@font-face{font-family:'open_sansbold';src: url(../fonts/opensans-bold-webfont.woff2) format('woff2'),url(../fonts/opensans-bold-webfont.woff) format('woff');font-weight: normal;font-style:normal}@font-face{font-family:kruti_regular;src:url(../fonts/krdv010_0-webfont.eot);src:url(../fonts/krdv010_0-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/krdv010_0-webfont.woff2) format('woff2'), url(../fonts/krdv010_0-webfont.woff) format('woff'), url(../fonts/krdv010_0-webfont.ttf)  format('truetype'), url(../fonts/krdv010_0-webfont.svg#svgFontName) format('svg')}a{color:rgb(220,28,36);transition: all ease-in .4s}@font-face{font-family:'Papyrus';src: url('../fonts/Papyrus-Regular.eot');src: url('../fonts/Papyrus-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Papyrus-Regular.woff') format('woff'), url('../fonts/Papyrus-Regular.ttf') format('truetype');font-weight: normal;font-style: normal}@font-face{font-family:'Avenir_bold';src:url(../fonts/Avenir_bold.eot) format('embedded-opentype'), url(../fonts/Avenir_bold.woff2) format('woff2'),url(../fonts/Avenir_bold.woff) format('woff'),url(../fonts/Avenir_bold.ttf) format('truetype'),url(../fonts/Avenir_bold.svg#Avenir_bold) format('svg')}@font-face{font-family:'Avenir_bold_italic';src:url(../fonts/Avenir_bold_italic.eot);src:url(../fonts/Avenir_bold_italic.eot) format('embedded-opentype'),url(../fonts/Avenir_bold_italic.woff2) format('woff2'),url(../fonts/Avenir_bold_italic.woff) format('woff'),url(../fonts/Avenir_bold_italic.ttf) format('truetype'),url(../fonts/Avenir_bold_italic.svg#Avenir_bold_italic) format('svg')}@font-face{font-family:'Avenir_light';src:url(../fonts/Avenir_light.eot);src:url(../fonts/Avenir_light.eot) format('embedded-opentype'),url(../fonts/Avenir_light.woff2) format('woff2'),url(../fonts/Avenir_light.woff) format('woff'),url(../fonts/Avenir_light.ttf) format('truetype'),url(../fonts/Avenir_light.svg#Avenir_light) format('svg')}@font-face{font-family:'Avenir_light_italic';src:url(../fonts/Avenir_light_italic.eot);src:url(../fonts/Avenir_light_italic.eot) format('embedded-opentype'),url(../fonts/Avenir_light_italic.woff2) format('woff2'),url(../fonts/Avenir_light_italic.woff) format('woff'),url(../fonts/Avenir_light_italic.ttf) format('truetype'),url(../fonts/Avenir_light_italic.svg#Avenir_light_italic) format('svg')}a:hover{color:rgb(0,0,0);text-decoration:none}ul{list-style-type:none;padding:0;margin:0}ul li{padding:0;margin:0}body{font-family:'Avenir_light';padding:0;margin:0}ul{padding:0;margin:0;list-style-type:none}li.expanded, li.collapsed, li.leaf{padding:0}.nobg{background:none!important;border:none!important}.pdleft{padding-left:0}.pdright{padding-right:0}.pdtop{padding-top:0}.pdbottom{padding-bottom:0}.nopadding{padding-right:0;padding-left:0}.hindi{font-family:kruti_regular;font-size:1.2em;font-weight:bold;text-transform:none}.navbar-default{border:none; background:none;min-height:auto;border-radius:0;margin:0}.last{border-right:none!important}.navbar-default .navbar-nav>li>a{}
+/*   Don't Make any Changes Global CSS      */
+.topheader .navbar-nav>li>a{color:rgb(255,255,255)}.topheader{background:rgb(99,186,180)}ul.leftnavi li{padding:0;margin:0;background:url(../images/leftnavi-libg.png) no-repeat;background-position:100% 50%}ul.leftnavi li a{color:rgb(255,255,255);font-size:18px;padding:5px}ul.leftnavi li a:hover, ul.leftnavi li a.active, ul.leftnavi li a:focus, ul.leftnavi li a:visited{color:rgb(255,255,255)}ul.skipcontent{margin:5px 0}ul.skipcontent li{display:inline;padding:0;margin:0 8px}ul.skipcontent li a{color:rgb(255,255,255);margin:0 3px}ul.skipcontent li a:hover, ul.skipcontent li a.active, ul.skipcontent li a:focus, ul.skipcontent li a:visited{color:rgb(255,255,255)!important}ul.skipcontent li.socialmedia, ul.skipcontent li.theme{display:inline}ul.skipcontent li.socialmedia a, ul.skipcontent li.theme a, ul.skipcontent li.languages a{display:inline;padding:0;margin:0 2px}ul.skipcontent li.theme a.blacktheme{background:rgb(0,0,0);border:1px solid rgb(255,255,255);color:rgb(255,255,255);padding:0 6px;transition:all ease-in .4s}ul.skipcontent li.theme a.blacktheme:hover{background:rgb(255,255,255);border:1px solid rgb(0,0,0);color:rgb(0,0,0)!important}ul.skipcontent li.theme a.brighttheme{background:rgb(255,255,255)!important;border:1px solid rgb(0,0,0)!important;color:rgb(0,0,0)!important;padding:0 6px;transition:all ease-in .4s}ul.skipcontent li.theme a.brighttheme:hover, ul.skipcontent li.theme a.brighttheme:active, ul.skipcontent li.theme a.brighttheme:focus, ul.skipcontent li.theme a.brighttheme:visited{color:rgb(255,255,255);background:rgb(0,0,0);border:1px solid rgb(255,255,255)}ul.skipcontent li.languages{}ul.skipcontent li.languages a{display:inline}ul.skipcontent li.languages a.hindi{font-family:kruti_regular}ul.skipcontent li.search a{display:inline;padding:0}
+.midheader{padding:17px 0}.logotext a{color:rgb(206,143,90);font-size:1.8em;font-family:'Avenir_bold';text-decoration:none;display:block;text-transform:capitalize}.logotext a span{display:block;color:rgb(0,0,0);font-size:26px;text-transform:none}
+.naviarea .navbar-default .navbar-nav>li>a{ font-family: 'Avenir_bold'; color:#127777;text-decoration:none;text-transform:capitalize;font-size:20px;padding:15px 80px}.naviarea .navbar-nav>li>a:hover, .naviarea .navbar-nav>li>a.active{color:rgb(99,186,180)}.dropdown-menu{min-width:238px;border:none;background:rgba(255,255,255);font-size:20px;padding:0}.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background:none}.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background:rgb(99,186,180);color:rgb(255,255,255)}
+.dropdown-menu>li>a{color:rgb(99,186,180)}.bannerarea .carousel-inner>.item>a>img, .bannerarea .carousel-inner>.item>img{width:100%}.bannerformarea{position:absolute;top:110px;width:100%}form.bannerform{background:rgba(71,165,158,0.5);z-index:1;padding:50px 30px;font-family:'Avenir_bold';float:left}
+form.bannerform .httext{font-family:'Avenir_bold';font-size:40px;color:rgb(255,255,255);margin-bottom:15px}form.bannerform label{display:inline-block;color:rgb(255,255,255);font-size:20px;margin-bottom:0;text-transform:uppercase;float:left;line-height:35px}form.bannerform .form-control{display:inline-block;margin-left:10px;background:rgba(71,165,158,0.9);color:rgb(255,255,255);width:62%;float:left}form.bannerform .form-group{margin:0}.bannerarea input[type="submit"]{background:rgb(99,186,180);color:rgb(255,255,255);font-size:16px;border:none;padding:7px 20px;border-radius:4px;transition:all ease-in .4s}.bannerarea input[type="submit"]:hover{background:rgb(99,186,188)}.bannerbox{color:rgb(255,255,255);padding-top:10px;padding-bottom:10px;min-height:220px}.boximage{text-align:center}.tender{background:rgb(206,143,90)}.adoption{background:rgb(239,209,153)}.nutrition{background:rgb(128,200,188)}.directbenifits{background:rgb(98,135,162)}.knowledgecorner{background:rgb(94,192,202)}.ngocorner{background:rgb(206,143,90)}.boxtext{color:rgb(255,255,255);font-family:'Avenir_bold';font-size:35px;text-align:center;margin-top:10px}}
+.bannerarea{width:100%;}
+.bannerarea img{width:100% !important;}
+.topfooter{ margin-top:20px;} .topfooter ul li{display:inline-block; margin:20px 14px; color:#000;} .topfooter ul li a{color:#000; font-size:1.2em;}
+.embedCenter img {  display: block;   margin: 0px auto;}
+.bannerSection {   position: absolute; top: 350px;}
+
+.bannerSection h2{ color:rgb(255,255,255);  font-family: 'Avenir_bold';}.bannerSection h3{ color:rgb(255,255,255)} .bannerSection h3 a{display:block; margin:0px auto; color:rgb(255,255,255);  background:rgb(66,146,157); padding:10px 10px; text-align:center; border-radius:6px; border:2px solid rgb(255,255,255)} 
+
+.bannerSection h3 a:hover{background:rgb(167,112,76);}
+
+.buttonSection{margin-top:20px;} .search{margin:5px 0px; float:right;} 
+
+.nopadright{padding-right:0px;}
+
+.trail{background:#ffc107; padding:0px; color:#fff; border-radius:5px;} .trail a{color:#fff !important; padding:5px 0px;}
+.trail:hover{background:#e8485f;}
+
+.socialmedia{margin-top:20px;}
+.socialmedia ul li a{color:#04544d; font-size:1.8em;} .socialmedia ul span{display:inline-block; font-size:1.2em;}
+.bottomfooter{background:#f0f0f0; padding:10px 0px;}
+
+#defaultNavbar2 .dropdown-menu>li>a{font-size: 0.8em; color: #333 !important;}
+
+
+.about-wrap{padding:20px 0px;}
+.about-wrap h2{color:#000; font-family:'Avenir_bold'; font-size:1.8em; text-align:left;}
+.title-border{background:#d9d9d9; width:200px; height:3px; margin-bottom:10px;} .title-border span{background:#ffc107; width:100px; height:3px; position: absolute;}
+.about-wrap p{color:#383838; text-align:justify; font-size:1.1em;}
+.readmore-yellow{ margin-top:15px;}
+.readmore-yellow a{background:#ffc107; color:#fff; padding:13px 10px;} .readmore-yellow a:hover{background:#39b54a;}
+.free-trail span a{background:#ffc107; color:#fff; padding:6px 10px; float:right; border:1px solid #fff; margin-bottom:2px;}
+.free-trail span a:hover{background:#e8485f;}
+
+.free-trail{background:#39b54a; color:#fff;padding:10px 10px 0px 10px; font-size:1.2em; }
+.box-wrap{background:#24656d; padding:50px 0px;}
+.box-wrap ul li{}
+.box-wrap ul li span{margin:0px auto; display:block;} .box-wrap ul li span img{display:block; margin:0px auto;}
+.box-wrap ul li h3{color:#fff; text-transform:uppercase; font-size:1.4em; font-family:'Avenir_bold'; text-align:center;}
+.box-wrap ul li p{font-size:1.0em; text-align:center; color:#fff;}
+.box-wrap ul li h4 a{width:65px; display:block; margin:0px auto; background:#ffc107; color:#fff; padding:5px 10px; text-align:center; font-size:0.9em;}
+.box-wrap ul li h4 a:hover{background:#ccc;}
+
+.responsiv-wrap{padding:50px 0px;}
+.responsiv-wrap ul li{border:2px solid #0c6057; padding:8px; background:#fff; margin-top:20px;}
+.responsiv-wrap ul li h4{text-transform:uppercase; text-align:left; color:#24656d; font-size:1.5em; font-family:'Avenir_bold';}
+.responsiv-wrap ul li p{color:#444; text-align:justify; font-size:1.0em;}
+.responsiv-wrap ul li h5 a{background:#ffc107; padding:2px 5px; color:#fff; font-size:1.2em;}
+.responsiv-wrap ul li h5 a:hover{background:#0c6057;}
+/*******************************************************/
+
+.latestNews{width:100%; background:url(../images/newsbg.jpg) no-repeat; background-size:cover; padding:4% 0px 10px 0px; margin-top:4%; }
+.latestNews ul {}.latestNews ul li{display:block;}
+.latestNews h2{color:rgb(255,255,255); font-size:2.0em;font-family: 'Avenir_bold'; margin:0px 0px 10px 0px; text-align:center }
+.latestNews ul li p{color:rgb(255,255,255); font-size:1.0em; margin:0px 0px 10px 0px; }
+
+#tcb-testimonial-carousel {
+  margin-top: 0px;
+}
+#tcb-testimonial-carousel a {
+  color: #b20000;
+}
+#tcb-testimonial-carousel .text-brand {
+  color: #b20000;
+}
+#tcb-testimonial-carousel .carousel-indicators .active {
+  background:rgb(182,182,182);
+}
+#tcb-testimonial-carousel .no-margin {
+  margin: 0;
+}
+#tcb-testimonial-carousel .carousel-indicators li {
+  border: 1px solid #ccc; width:17px; height:17px
+}
+#tcb-testimonial-carousel .carousel-control {
+  color: #b20000;
+  width: 5%;
+}
+#tcb-testimonial-carousel .carousel-control:hover,
+#tcb-testimonial-carousel .carousel-control:focus {
+  color: #b20000;
+}
+#tcb-testimonial-carousel .carousel-control.left,
+#tcb-testimonial-carousel .carousel-control.right {
+  background-image: none;
+}
+#tcb-testimonial-carousel .item {
+  padding: 15px 40px;
+ color:rgb(255,255,255);text-align:center; font-size:1.2em;
+}
+#tcb-testimonial-carousel .media-object {
+  margin: auto;
+}
+
+.carousel-indicators{display:block; position:relative; margin-top: 3%}
+
+#ccr-slide-main .carousel-indicators .active{
+	background-color: #232323;
+}
+#ccr-slide-main .carousel-control{
+	text-shadow:none;
+	display: inline-block;
+	background: #232323;
+	line-height:36px!important;
+	-moz-line-height:36px!important;
+	height:40px;
+	width:40px;
+	top:45%;
+	opacity: 1;
+}
+#ccr-slide-main .carousel-control:hover{
+	background-color: #ffc100;
+}
+
+/***************Blog*********************************/
+
+
+#blog-wrap{} #blog-wrap ul li{margin-top:20px;} 
+.blog-thumbnails img{width:100%;}
+.blog-text{text-align:justify;}
+.blog-text h4 a{color:#000; font-size:1.2em; text-align:left;}	
+.read-more a { background:#127777; color:#fff; padding:5px 10px; float:right;}
+.like{color:blue; font-size:1.2em;} .comments{color:#444; font-size:1.2em; margin-left:10px;}
+
+.blog-Inner .meta-data {margin-bottom:10px;}
+.blog-Inner p { font-size:1.1em; color:#444}
+
+.post-user img{width:100%;}
+.post-user figcaption {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 14px 0px;
+    color: #275dc1;
+    font-family: 'Avenir_bold';
+}
+
+
+
+/***********************************************/
+
+
+footer{ margin-top:20px; box-shadow: 0px 3px 9px #929292;}
+
+@media (max-width:1600px){
+.naviarea .navbar-default .navbar-nav>li>a{font-size:1.5em;padding:15px 18px}
+}
+
+@media (max-width:1545px){
+.naviarea .navbar-default .navbar-nav>li>a{font-size:1.5em;padding:15px 18px}
+}
+@media (max-width:1400px){
+.naviarea .navbar-default .navbar-nav>li>a{font-size:1.2em;padding:15px 16px}.boxtext{font-size:20px}.bannerbox{min-height:185px}ul.domainul li a{font-size:16px}
+}
+@media (max-width:1280px){
+.naviarea .navbar-default .navbar-nav>li>a{font-size:1.0em;padding:15px 14px}	
+}
+
+@media (max-width:1140px){
+	.naviarea .navbar-default .navbar-nav>li>a{    padding: 15px 12px;}
+}
+
+@media (max-width:1024px){
+.tcenter{text-align:center}.logotext a{font-size:20px}.midheader a img.img-responsive{display:inline}.navbar-collapse.in{margin-top:55px;text-align:center}.naviarea .navbar-nav>li>a{font-size:16px;padding:15px 26px}.domaincontainer:before{left:46.7%}.domaincontainer:after{left:45.30%;margin-top:341px}form.bannerform{left:25px;top:70px}form.bannerform .form-control{max-width:54%;min-width:54%;margin-bottom:10px}ul.domainul li a{font-size:15px}.bannerformarea{top:0}
+}
+
+@media (max-width:990px){
+.boxtext{font-size:18px} 
+.readmore-yellow {
+    margin: 21px 0px;
+}
+}
+@media (max-width:768px){
+.naviarea .navbar-nav>li>a{font-size:16px;padding:15px 8px} .bannerSection h2{display:none;}
+
+#defaultNavbar2 .dropdown-menu>li>a{color:#fff !important;}
+.naviarea .navbar-default .navbar-nav>li>a{text-align:left;}
+.readmore-yellow {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+}
+@media (max-width:767px){
+.naviarea{background:#e27e1e}.navbar-default .navbar-toggle{border-color:rgb(255,255,255)}.navbar-default .navbar-toggle .icon-bar{background:rgb(255,255,255)}.naviarea .navbar-default .navbar-nav>li>a{color:rgb(255,255,255)}.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{color:rgb(255,255,255)}.navbar-default .navbar-nav .open .dropdown-menu>li>a{color:rgb(255,255,255)}
+.logotext a{font-size:10px}.logotext a span{font-size:8px}.topheader .pull-left{float:none!important}ul.leftnavi li{background:none}.naviarea .navbar-nav>li>a{font-size:16px;padding:15px 8px}form.bannerform{left:0;top:5px}form.bannerform .httext{font-size:12px}form.bannerform label{font-size:12px}form.bannerform .form-control{float:right;}.carousel-inner, .carousel, .carousel-inner>.item{min-height:300px}form.bannerform .form-group{margin-bottom:30px}.bannerarea .carousel-inner>.item>a>img, .bannerarea .carousel-inner>.item>img{height:100%}.bannerarea{background:none}.carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right{height:300px}.bannerarea input[type="submit"]{margin-left:50px}
+
+.bannerSection.col-xs-12{width:80%;  position:relative;} .bannerSection h3 a{width:100%;} .bannerSection h2{}
+
+}
